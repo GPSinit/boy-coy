@@ -273,13 +273,13 @@ loco();
 swip();
 gsp();
 
-// document.addEventListener("readystatechange", function(){
-//     if(document.readyState === "complete"){
-//         gsap.to("#loader",{
-//             top: "-100vh",
-//             duration:2,
-//             delay:2,
-//             ease: Expo.easeInout
-//         })
-//     }
-// })
+document.addEventListener("readystatechange", function(){
+    if(document.readyState === "complete"){
+        gsap.to("#loader",{
+            top: "-100vh",
+            duration:2,
+            delay:2,
+            ease: Expo.easeInout
+        })
+    }
+})
